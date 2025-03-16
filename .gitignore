@@ -172,3 +172,54 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# virtaul environments
+data-pipeline/
+
+# Service account creds
+keys/
+
+# Terraform
+# Terraform files
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform/
+terraform.tfvars
+
+# Credentials and secrets
+*.pem
+*.key
+*.p12
+creds.json # If you store credentials in a file named credentials.json
+
+# Local files and directories
+.DS_Store
+*.swp
+*.swo
+*.idea/
+*.vscode/
+
+# OS generated files
+._*
+*.log
+*.out
+
+# Temporary files
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+
+# If you use a remote backend in GCS
+*.gcs.json
+
+# If you use a remote backend in AWS S3
+*.s3.json
+
+# If you use a remote backend in Azure Storage
+*.azurerm.json
+
+# If you use a remote backend in Hashicorp Cloud
+*.tfrc

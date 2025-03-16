@@ -1,0 +1,2 @@
+accidents: https://www.data.gov.in/resource/stateut-wise-number-road-accidents-country-2018-2022
+deaths-by-accidents: https://www.data.gov.in/resource/year-wise-number-people-killed-hit-and-run-accidents-well-other-accidents-all-road
